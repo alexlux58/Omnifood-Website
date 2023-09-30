@@ -661,3 +661,61 @@ footer p {
 html {
   scroll-behavior: smooth;
 }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+  .main-nav {
+    display: none !important;
+  }
+
+  .row {
+    max-width: 100%;
+    margin: 0;
+  }
+
+  h1 {
+    font-size: 180%;
+  }
+
+  h2 {
+    font-size: 140%;
+  }
+
+  .long-copy,
+  .box p {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  .main-nav li {
+    margin-left: 20px;
+  }
+
+  .hero-text-box {
+    width: 100%;
+    text-align: center;
+  }
+
+  .meals-showcase li {
+    width: 50%;
+  }
+
+  .steps-box {
+    text-align: center;
+    padding: 0;
+  }
+
+  .app-screen {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .plan-box {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+}
